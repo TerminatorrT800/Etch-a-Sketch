@@ -1,0 +1,34 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.mainContainer{
+    display: flex;    
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    width: 1600px;
+    height: 1200px;
+    padding: 0;
+    margin: 0;
+}
+
+.gridElement{
+    background-color: aqua;
+    border: black solid 1px;
+    box-sizing: border-box;
+}
+
+.buttonGrid{
+    padding: 8px 16px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 26px;
+    border-radius: 20px;
+}
